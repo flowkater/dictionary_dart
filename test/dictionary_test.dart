@@ -47,6 +47,12 @@ void main() {
     dictionary.add('orange', '오렌지');
     dictionary.add('tony', '토니');
 
+    // expect(dictionary.words, {
+    //   'apple': '사과',
+    //   'orange': '오렌지',
+    //   'tony': '토니',
+    // });
+
     expect(dictionary.get('orange'), '오렌지');
     expect(dictionary.get('tony'), '토니');
     expect(dictionary.count(), 3);
